@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+env/
+.venv/
+venv/
+**/.venv/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Model weights and caches (downloaded at run time)
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+.cache/
+**/_dev_home/
+
+# App build output and release files (published to Hugging Face, too big for git)
+app/build/
+app/dist/
+app/release/
+*.zip
+
+# Run outputs
+output/
+results/
+**/bulk_work/
+**/measured/
+**/annotated/
+**/depth/
+**/pointclouds/
+
+# Large data
+images/
+groundTruth/data/
+*.ply
+
+# Editor and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Scratch files in the project root
+/image.png
+/image.jpg

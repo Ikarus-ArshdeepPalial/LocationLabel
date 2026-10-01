@@ -1,0 +1,172 @@
+# Ground-truth data sources. Each entry maps one ArcGIS layer to our canonical attributes.
+#
+# `confirmed: false` means the field mapping below is a proposal (from `groundtruth inspect`, or from
+# manual review of the live service) that has NOT been reviewed by a person yet. `download` refuses to
+# use a source until you set `confirmed: true`.
+#
+# field_mapping entries:
+#   field:    the source column to read
+#   fallback: [other columns] tried in order if `field` is null (e.g. diagonal ramps split LT/RT)
+#   unit:     percent | ratio | degree (slopes); inch | foot | cm | mm | meter (lengths) — converted to
+#             the canonical unit implied by the attribute name (_pct = percent, _in = inches)
+#   parse:    a named parser instead of a plain unit conversion (mutcd_code, sign_size_inches,
+#             compass_to_degrees, epoch_ms, date_string:<strptime format>)
+#
+# Run `python main.py groundtruth inspect` any time to re-check a source is still reachable.
+
+sources:
+  - name: charlotte_curb_ramps
+    enabled: true
+    confirmed: false
+    city: Charlotte
+    state: NC
+    object_type: curb_ramp
+    url: https://gis.charlottenc.gov/arcgis/rest/services/CDOT_ADA/ADA_Curb_Ramps/MapServer/0
+    where: "1=1"
+    field_mapping:
+      running_slope_pct: {field: RP_Slope, unit: percent, fallback: [RP_Slope_LT, RP_Slope_RT]}
+      cross_slope_pct: {field: RP_XSlope, unit: percent, fallback: [RP_XSlope_LT, RP_XSlope_RT]}
+      ramp_width_in: {field: RP_Wid, unit: inch, fallback: [RP_Wid_LT, RP_Wid_RT]}
+      gutter_lip_height_in: {field: RP_GutterLipHt, unit: inch}
+      survey_date: {field: RP_SurveyDate, parse: "date_string:%m/%d/%Y %H:%M"}
+    notes: >
+      Perpendicular ramps use RP_Slope/RP_XSlope/RP_Wid; diagonal ("ParaDiag") ramps split into
+      _LT/_RT pairs instead, hence the fallback fields. Units confirmed against sample records
+      (values 0-15 for slopes, 40-60 for widths match percent and inches respectively).
+
+  - name: ct_curb_ramps
+    enabled: true
+    confirmed: false
+    city: South Central Connecticut region
+    state: CT
+    object_type: curb_ramp
+    url: https://gis.cti.uconn.edu/arcgis/rest/services/CTI/SCRCGOG_ADA_Public/FeatureServer/0
+    where: "1=1"
+    field_mapping:
+      running_slope_pct: {field: RampRunningSlope, unit: percent}
+      cross_slope_pct: {field: RampCrossSlope, unit: percent}
+      ramp_width_in: {field: RampOpeningWidth, unit: inch}
+      gutter_lip_height_in: {field: GutterHeight, unit: inch}
+      survey_date: {field: Inspection, parse: epoch_ms}
+    notes: >
+      UNVERIFIED UNITS: sampled records had these fields null (most rows are Source="Imagery",
+      not yet field-surveyed), so percent/inch are a best guess from the field names, not confirmed
+      against real values. Check a surveyed row (Status containing "Field") before setting confirmed:true.
+
+  - name: sbcta_curb_ramps
+    enabled: true
+    confirmed: false
+    city: San Bernardino County (multiple jurisdictions)
+    state: CA
+    object_type: curb_ramp
+    url: https://sbcta-gis.sanbag.ca.gov/arcgis/rest/services/SidewalkInventory_Coverage_PhaseII/FeatureServer/0
+    where: "1=1"
+    field_mapping:
+      survey_date: {field: date, parse: epoch_ms}
+    notes: >
+      NO NUMERIC SLOPE AVAILABLE: Ramp_RunningSlope/Ramp_CrossSlope are categorical strings
+      ("Slope exceeds standard threshold" / "Equal to or less than standard threshold"), not
+      percentages, and fields A/B/C/D/I/J/M/P/Q/R/S/W are undocumented survey-form codes. Only
+      survey_date and geometry (usable for detection ground truth) are mapped. Do not add a
+      running_slope_pct/cross_slope_pct mapping without SBCTA's field dictionary.
+
+  - name: sbcta_sidewalks
+    enabled: true
+    confirmed: false
+    city: San Bernardino County (multiple jurisdictions)
+    state: CA
+    object_type: sidewalk
+    url: https://sbcta-gis.sanbag.ca.gov/arcgis/rest/services/SidewalkInventory_Coverage_PhaseII/FeatureServer/1
+    where: "1=1"
+    field_mapping:
+      width_in: {field: WIDTHVALUE, unit: foot}
+      cross_slope_pct: {field: cross_slope_percent, unit: percent}
+      running_slope_pct: {field: running_slope_percent, unit: percent}
+      condition: {field: PavementIndex_Category}
+      survey_date: {field: date, parse: epoch_ms}
+    notes: >
+      UNVERIFIED UNIT for width: WIDTHVALUE=5 looks like feet (typical sidewalk width), but a second
+      field WIDTH_Ecopia (meters, AI-derived) and a raw `width` field (=75, unexplained) also exist.
+      Verify WIDTHVALUE against WIDTHCAT's category boundaries before setting confirmed:true.
+      Geometry is a polyline; the representative point is the length-weighted midpoint.
+
+  - name: sanramon_stop_signs
+    enabled: true
+    confirmed: false
+    city: San Ramon
+    state: CA
+    object_type: stop_sign
+    url: https://gis.sanramon.ca.gov/server/rest/services/Infrastructure/Sign_Inventory/FeatureServer/0
+    where: "TYPE_ LIKE 'R1-1%'"
+    field_mapping:
+      sign_code: {field: TYPE_, parse: mutcd_code}
+      sign_size_in: {field: Size_, parse: sign_size_inches}
+      facing_direction: {field: Direction, parse: compass_to_degrees}
+      survey_date: {field: Date_, parse: "epoch_ms:min_year=1980"}
+    notes: >
+      TYPE_ holds free text like "R1-1 (stop sign)"; mutcd_code extracts the leading code.
+      Date_ has a sentinel value (~year 1905) for "unknown"; treated as missing below 1980.
+      No side_of_street field in this source.
+
+  - name: sanramon_signs_other
+    enabled: true
+    confirmed: false
+    city: San Ramon
+    state: CA
+    object_type: sign_other
+    url: https://gis.sanramon.ca.gov/server/rest/services/Infrastructure/Sign_Inventory/FeatureServer/0
+    where: "TYPE_ NOT LIKE 'R1-1%' OR TYPE_ IS NULL"
+    field_mapping:
+      sign_code: {field: TYPE_, parse: mutcd_code}
+      sign_size_in: {field: Size_, parse: sign_size_inches}
+      facing_direction: {field: Direction, parse: compass_to_degrees}
+      survey_date: {field: Date_, parse: "epoch_ms:min_year=1980"}
+    notes: "Same source as sanramon_stop_signs, everything except R1-1."
+
+  - name: seattle_stop_signs
+    enabled: true
+    confirmed: false
+    city: Seattle
+    state: WA
+    object_type: stop_sign
+    url: https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/SDOT_Street_Signs/FeatureServer/1
+    where: "SIGNTYPE = 'R1-1'"
+    field_mapping:
+      sign_code: {field: SIGNTYPE}
+      sign_size_in: {field: SIGNSZ, parse: sign_size_inches}
+      facing_direction: {field: FACING, parse: compass_to_degrees}
+      side_of_street: {field: SIDE}
+      survey_date: {field: INSTDATE, parse: epoch_ms}
+    notes: "SIGNTYPE is already a clean MUTCD code for this source."
+
+  - name: seattle_signs_other
+    enabled: true
+    confirmed: false
+    city: Seattle
+    state: WA
+    object_type: sign_other
+    url: https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/SDOT_Street_Signs/FeatureServer/1
+    where: "SIGNTYPE <> 'R1-1' OR SIGNTYPE IS NULL"
+    field_mapping:
+      sign_code: {field: SIGNTYPE}
+      sign_size_in: {field: SIGNSZ, parse: sign_size_inches}
+      facing_direction: {field: FACING, parse: compass_to_degrees}
+      side_of_street: {field: SIDE}
+      survey_date: {field: INSTDATE, parse: epoch_ms}
+    notes: "Same source as seattle_stop_signs, everything except R1-1. SIGNSZ has some free-text sizes (e.g. VariesX9) that fail to parse and are left blank."
+
+  - name: montana_dot_curb_ramps
+    enabled: false
+    confirmed: false
+    city: Montana (statewide)
+    state: MT
+    object_type: curb_ramp
+    url: https://app.mdt.mt.gov/arcgis/rest/services/ADA/ADA_CurbQuery/FeatureServer/0
+    where: "1=1"
+    field_mapping: {}
+    notes: >
+      UNREACHABLE from this network: the server returns an HTML "Page Not Served" page instead of
+      ArcGIS JSON for both a plain request and a browser-like User-Agent, which is consistent with a
+      geographic/IP access restriction, not a wrong URL. Disabled until reachable. Options: try from a
+      US IP/VPN, look for a republished copy on arcgis.com, or request an export from MDT directly.
+      A field mapping cannot be proposed without seeing the layer's fields.

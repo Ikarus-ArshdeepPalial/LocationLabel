@@ -1,0 +1,10 @@
+LocationLabel, by Ikarus Delta, estimates ramp, driveway, curb and stop sign measurements from street-level photos.
+
+Before you install:
+
+- The measurements are approximations from a single photo. Use them as a rough guide, not as exact figures.
+- The first analysis downloads the AI models (about 3 GB, once) and needs an internet connection. After that the app works offline.
+- Ramp and driveway slopes use extra photos from different positions. The first time you analyze them, another model of about 4.7 GB is downloaded, and a graphics card with 8 GB or more of memory is recommended.
+- A computer with an NVIDIA graphics card is much faster. Without one, each photo can take a few minutes.
+- Google Street View is optional and off by default. If you turn it on in Settings you will need your own Google Maps API key.
+- Your photos are never uploaded. They are analyzed on this computer.

@@ -1,0 +1,27 @@
+# CUDA build of torch (cu126 works with NVIDIA driver >= 560); drop this line for a CPU-only install.
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Stages 1-2: geocoding and Street View
+requests>=2.31
+python-dotenv>=1.0
+Pillow>=10.0
+
+# Ground-truth module and ramp benchmark
+PyYAML>=6.0
+datasets
+
+# Stage 3: object labeling
+torch
+torchvision
+timm
+transformers>=4.45
+scipy
+# Single-image camera calibration for your own photos (installs from GitHub; needs git)
+geocalib @ git+https://github.com/cvg/GeoCalib
+ultralytics>=8.3
+opencv-python-headless
+numpy
+
+# Tests
+pytest>=8.0
+responses>=0.25

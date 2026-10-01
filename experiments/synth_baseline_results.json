@@ -1,0 +1,1298 @@
+[
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.73,
+  "error": -1.56
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.5,
+  "error": 1.21
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.21,
+  "error": -1.08
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.01,
+  "error": -2.28
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.88,
+  "error": 1.59
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.37,
+  "error": -1.92
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.05,
+  "error": -3.7
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 3.02,
+  "error": -1.73
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.33,
+  "error": -3.41
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.61,
+  "error": -4.14
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 3.41,
+  "error": -1.33
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.86,
+  "error": -3.88
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.82,
+  "error": -6.02
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.04,
+  "error": -4.8
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.54,
+  "error": -5.31
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.23,
+  "error": -6.61
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.25,
+  "error": -4.59
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.06,
+  "error": -5.79
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.39,
+  "error": -1.9
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.67,
+  "error": 1.38
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.67,
+  "error": 0.38
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.12,
+  "error": -1.17
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.21,
+  "error": 2.92
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.06,
+  "error": -2.23
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.5,
+  "error": -3.25
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.92,
+  "error": -2.82
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 2.62,
+  "error": -2.12
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.37,
+  "error": -4.37
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.29,
+  "error": -0.45
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.09,
+  "error": -3.65
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.29,
+  "error": -6.55
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.72,
+  "error": -5.12
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.53,
+  "error": -4.31
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.3,
+  "error": -5.54
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.64,
+  "error": -6.2
+ },
+ {
+  "distance": 6.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.4,
+  "error": -6.44
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.43,
+  "error": 3.14
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 9.22,
+  "error": 6.92
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.33,
+  "error": 3.04
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.36,
+  "error": 3.06
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 9.37,
+  "error": 7.08
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 6.18,
+  "error": 3.89
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.09,
+  "error": -0.65
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 8.73,
+  "error": 3.98
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.07,
+  "error": -0.67
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.35,
+  "error": -0.4
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 8.91,
+  "error": 4.16
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 5.36,
+  "error": 0.61
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.42,
+  "error": -4.42
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 8.58,
+  "error": 1.74
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.8,
+  "error": -4.04
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 3.18,
+  "error": -3.66
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 8.93,
+  "error": 2.09
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 4.1,
+  "error": -2.74
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 6.59,
+  "error": 4.3
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 8.21,
+  "error": 5.92
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.96,
+  "error": 3.67
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.69,
+  "error": 3.4
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 7.96,
+  "error": 5.67
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 7.97,
+  "error": 5.68
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 3.86,
+  "error": -0.88
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 10.56,
+  "error": 5.82
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 3.81,
+  "error": -0.94
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.44,
+  "error": -0.3
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 10.47,
+  "error": 5.72
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.84,
+  "error": 0.09
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.51,
+  "error": -4.33
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 9.81,
+  "error": 2.96
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.21,
+  "error": -4.63
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 4.2,
+  "error": -2.64
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 9.5,
+  "error": 2.66
+ },
+ {
+  "distance": 6.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 5.03,
+  "error": -1.81
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.32,
+  "error": -1.97
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.07,
+  "error": 0.78
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.44,
+  "error": -1.85
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.18,
+  "error": -2.11
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.38,
+  "error": 0.09
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.49,
+  "error": -1.8
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.7,
+  "error": -4.05
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 2.87,
+  "error": -1.87
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.24,
+  "error": -4.51
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.49,
+  "error": -4.25
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 2.67,
+  "error": -2.07
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.87,
+  "error": -3.87
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.42,
+  "error": -5.42
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.78,
+  "error": -5.06
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.33,
+  "error": -5.51
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.86,
+  "error": -4.98
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.34,
+  "error": -5.5
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.39,
+  "error": -4.45
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.98,
+  "error": -0.31
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.06,
+  "error": 0.77
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.28,
+  "error": -2.01
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.24,
+  "error": -2.05
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.93,
+  "error": -0.37
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.22,
+  "error": -2.07
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.77,
+  "error": -2.98
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.02,
+  "error": -0.72
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.11,
+  "error": -4.63
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.11,
+  "error": -4.64
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 5.2,
+  "error": 0.45
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.07,
+  "error": -3.68
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 3.08,
+  "error": -3.77
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.42,
+  "error": -4.42
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.63,
+  "error": -5.21
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 2.43,
+  "error": -4.41
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.33,
+  "error": -6.51
+ },
+ {
+  "distance": 10.0,
+  "zoom": 1.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.27,
+  "error": -6.57
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.55,
+  "error": 0.26
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.74,
+  "error": 3.45
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.94,
+  "error": -0.35
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.4,
+  "error": 0.11
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 6.64,
+  "error": 4.35
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.03,
+  "error": -0.27
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 2.08,
+  "error": -2.67
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 5.17,
+  "error": 0.43
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.44,
+  "error": -3.3
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.85,
+  "error": -2.9
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 6.18,
+  "error": 1.44
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.94,
+  "error": -2.8
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.83,
+  "error": -5.01
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 5.06,
+  "error": -1.78
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.98,
+  "error": -5.87
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.49,
+  "error": -5.35
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 6.14,
+  "error": -0.71
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": false,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.5,
+  "error": -5.35
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 3.69,
+  "error": 1.4
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.25,
+  "error": 2.96
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 0.72,
+  "error": -1.57
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 2.49,
+  "error": 0.2
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 5.55,
+  "error": 3.26
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 4.0,
+  "truth_deg": 2.29,
+  "estimate_deg": 1.13,
+  "error": -1.16
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 2.52,
+  "error": -2.22
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 5.59,
+  "error": 0.84
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.96,
+  "error": -2.79
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 1.73,
+  "error": -3.01
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 4.99,
+  "error": 0.25
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 8.3,
+  "truth_deg": 4.74,
+  "estimate_deg": 0.2,
+  "error": -4.55
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.99,
+  "error": -4.85
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 5.92,
+  "error": -0.93
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 0.32,
+  "error": -6.52
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 3.11,
+  "error": -3.73
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 5.68,
+  "error": -1.17
+ },
+ {
+  "distance": 10.0,
+  "zoom": 2.0,
+  "noisy": true,
+  "slope_pct": 12.0,
+  "truth_deg": 6.84,
+  "estimate_deg": 1.19,
+  "error": -5.65
+ }
+]
